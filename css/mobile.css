@@ -1,0 +1,798 @@
+/* For mobile phones Iphone, Androids, etc */
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+ .container{
+  width: 320px;
+  height: auto;
+  margin: 0px auto;
+  /*  border: 2px solid yellow; */
+ }
+
+ #subMenu, #menu, .vLine{
+ 	display:none;
+ }
+
+ iframe{
+  width: 320px;
+ }
+
+ .logo{
+ 	margin-top: 0px;
+ }
+
+ .main{
+  margin-top: -35px;
+  width:100%;
+ }
+
+ .header h1{
+ 	font-size: 1.5em;;
+ }
+
+ .header p{
+ 	font-size: 0.9em;
+ }
+
+ .information, 
+ .leftArea, 
+ .rightArea, 
+ .pictures, 
+ .footerColumn, 
+ .logocopy,
+ .listing, .button, 
+ .routeButton, 
+ .apply,
+ .tic,
+ .searchStation{
+ 	width: 97%;
+ 	padding: 5px;
+ }
+
+ .select_type{
+ 	width: 93%;
+ 	float: left;
+ 	padding: 5px;
+ }
+
+  .fluid{
+  height: 110px;
+ }
+
+ .steps{
+ 	width: 23%;
+ }
+
+ .apply{
+ margin: 0px;
+ }
+
+ .listing{
+ 	float: left;
+ }
+ .listing ul{
+ 	text-align: left;
+ }
+
+ .footerColumn ul li a{
+ 	font-size: 1em;
+ }
+}
+
+
+/* For mobile phones Iphones and larger mobile devices */
+@media only screen and (min-width: 480px){
+ .container{
+  width: 480px;
+  height: auto;
+  margin: 0px auto;
+  /*  border: 2px solid yellow; */
+ }
+
+ #subMenu, #menu, .vLine{
+ 	display:none;
+ }
+
+  iframe{
+  width: 480px;
+ }
+
+ .logo, .main{
+ 	margin-top: 0px;
+ }
+
+ .fluid{
+  height: 100px;
+ }
+
+ .header h1{
+ 	font-size: 2.5em;;
+ }
+
+ .header p{
+ 	font-size: 1em;
+ }
+
+ .information, 
+ .leftArea, 
+ .rightArea, 
+ .pictures, 
+ .footerColumn, 
+ .logocopy,
+ .listing, .button, 
+ .routeButton, 
+ .apply,
+ .tic,
+ .searchStation{
+ 	width: 97%;
+ 	padding: 5px;
+ }
+
+ .select_type{
+ 	width: 93%;
+ 	float: left;
+ 	padding: 5px;
+ }
+
+ .steps{
+ 	width: 27%;
+ }
+
+ .apply{
+ margin: 0px;
+ }
+
+ .listing{
+ 	float: left;
+ }
+ .listing ul{
+ 	text-align: left;
+ }
+
+ .footerColumn ul li a{
+ 	font-size: 1em;
+ }
+}
+
+
+
+
+
+
+
+/* For tablets */
+@media only screen and (min-width: 750px) {
+ .container{
+  width: 750px;
+  height: auto;
+  margin: 0px auto;
+  /*  border: 2px solid yellow; */
+ }
+
+ #subMenu, #menu{
+ 	display: block;
+ }
+
+ .vLine{
+  display: none;
+ }
+
+  iframe{
+  width: 750px;
+ }
+
+ .fluid{
+  height: 75px;
+ }
+
+ .logo, .main{
+ 	margin-top: -75px;
+ }
+
+ .logo{
+  padding-left: 50px;
+ }
+
+ .header h1{
+ 	font-size: 3em;;
+ }
+
+ .header p{
+ 	font-size: 1.5em;
+ }
+
+ .information, 
+ .leftArea, 
+ .rightArea, 
+ .pictures, 
+ .footerColumn, 
+ .logocopy,
+ .listing, .button, 
+ .routeButton, 
+ .apply,
+ .tic,
+ .searchStation{
+ 	width: 97%;
+ 	padding: 5px;
+ }
+
+ .select_type{
+ 	width: 95%;
+ 	float: left;
+ 	padding: 5px;
+ }
+
+ .steps{
+ 	width: 29%;
+ }
+
+ .apply{
+ margin: 0px;
+ }
+
+ .listing{
+ 	float: left;
+ }
+ .listing ul{
+ 	text-align: left;
+ }
+
+ .footerColumn ul li a{
+ 	font-size: 1em;
+ }
+}
+
+/* For mini laptops and larger tablets  */
+@media only screen and (min-width: 960px) {
+/* external fonts */
+@font-face {
+  font-family: chb;
+  src: url('../fonts/CooperHewitt-Bold.otf');
+}
+
+@font-face {
+  font-family: chm;
+  src: url('../fonts/CooperHewitt-Medium.otf');
+}
+
+@font-face {
+  font-family: cht;
+  src: url('../fonts/CooperHewitt-Thin.otf');
+}
+
+ iframe{
+  width: 960px;
+ }
+
+html, body{
+  background: #ffffff;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.white{
+  color: #fffef9;
+}
+
+.center-block{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-text{
+  text-align: center;
+}
+
+.load{
+  font-size: 5em;
+  font-family: cht;
+}
+
+.items{
+  margin-top: 40%;
+}
+
+.lheight{
+  line-height: 0.01em;
+}
+
+span, p, h1, h2, h3, h4, h5, h6, nav, a, i{
+  font-family: chm;
+}
+
+.container{
+  width: 960px;
+  height: auto;
+  margin: 0px auto;
+/*  border: 2px solid yellow; */
+}
+
+/* Landing page for loading and solicitation */
+.landing{
+  position: absolute;   /* for overlapping effect */
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background:url('../images/background.jpg');
+  background-size: cover;
+}
+
+
+/* fullsize fluid containers */
+.fluid{
+  width: 100%;
+  height: 75px;
+  background: #ffffff;
+  margin: 0px;
+  float: left;
+}
+
+#menu{
+  width: 7% !important;
+}
+
+#subMenu{
+  width: 20%;
+  height: auto;
+  background: #AA391B;
+  z-index: 50;
+  float: left;
+  position: absolute;
+  left: -100%;
+  top: 75px;
+}
+
+#subMenu button{
+  width: 100% !important;
+  font-family: chm !important;
+  background: #AA391B;
+}
+
+#subMenu button:hover{
+  background: #E27D58;
+}
+
+.banner_container{
+  width: 100%;
+  height: 875px;
+  background:url('../images/mountain.jpg') no-repeat;
+  background-size: cover;
+  position:relative;
+  float: left;
+  z-index: 0;
+  /*margin-bottom: 30px;*/
+}
+
+/* buttons */
+.buttons img{
+  width: 3%;
+  display: inline-block;
+}
+
+/* logo */
+.logo{
+  position: relative;
+  width: 30%;
+  height: 40px;
+  /*border: 1px solid blue;*/
+  float: left;
+  padding: 15px;
+  /*margin-top: 0px;*/
+}
+
+.brand{
+  height: 100%;
+  vertical-align: middle;
+}
+
+/* navigation */
+nav{
+  position: relative;
+  width: 55%;
+  height: 40px;
+  /* border: 1px solid red; */
+  float: right;
+  padding: 15px;
+  margin-top: -74px;
+}
+
+nav ul{
+  text-align: left;
+  margin: 9px;
+}
+
+nav ul li{
+  list-style:none;
+  display: inline;
+  margin-right: 9px;
+  /*border-right: 1px solid #fff;*/
+}
+
+nav ul li a{
+  font-size: 1em;
+  /*color: #fffef9;*/
+  color: #AB391B;
+  text-decoration: none;
+  font-family: chm;
+}
+
+nav ul li a:hover{
+  color: #e27d58;
+  text-decoration: underline;
+}
+
+/* banner */
+.header{
+  width: 100%;
+  padding-bottom: 30px;
+  margin-top: -60px;
+}
+
+.header h1{
+  text-align: center;
+  color: #fffef9;
+  font-size: 6em;
+  font-family:cht;
+  text-transform: uppercase;
+  padding-top: 130px;
+  line-height: 0.01em;
+}
+
+.header p, .header span{
+  font-family: chm;
+  font-size: 1.6em;
+  color: #fffef9;
+  text-align: center;
+}
+
+/* booking form */
+.booking_Form{
+  width: 100%;
+  text-align: center;
+}
+
+.booking_border{
+  /*border: 1px solid #fffef9;*/
+  background: #231f20;
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.booking_Form h3{
+  line-height: 0.3em;
+  color: #fffef9;
+  font-size: 2em;
+  font-family: chb;
+}
+
+.booking_Form input{
+   width: 97%;
+   height: 50px;
+   margin-bottom: 17px;
+}
+
+.booking_Form p i{
+  color: #fffef9;
+  font-size: 1em;
+}
+
+.button{
+  background: #ab391b;
+  width: 50%;
+  height: 75px;
+  border: none;
+  color: #fffef9;
+  font-family: chb;
+  border-radius: none;
+  font-size: 1.5em;
+}
+
+.button:hover{
+  background: #e27d58;
+}
+
+.information{
+  width: 30%;
+  height: auto;
+  float: left;
+  /*border: 1px solid red;*/
+  padding: 15px;
+  margin-bottom:30px;
+  text-align: center;
+}
+
+
+.img-responsive{
+  max-width: 100%;
+  height: auto;
+}
+
+.information span, .information p{
+  color: #fffef9;
+  font-family: chm;
+}
+
+.thin{
+  font-family: cht !important;
+}
+
+.medium{
+  font-family: chm !important;
+}
+
+.bold{
+  font-family: chb !important;
+}
+
+.info{
+  width: 100%;
+  height: auto;
+  float: left;
+  background: #AA391B;
+}
+
+.info2{
+  width: 100%;
+  height: auto;
+  float: left;
+  background: #F5F5F5;
+}
+
+.locations{
+  background: #F5F5F5;
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+.pictures{
+  width: 30%;
+  padding: 0px 15px;
+  height: auto;
+  /*border: 1px solid red;*/
+  float: left;
+  color: #231F20;
+  margin-bottom: 30px;
+}
+
+/* footer */
+.footer{
+  background: #ffffff;
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+.footerColumn{
+  width: 16%;
+  padding: 0px 15px;
+  height: auto;
+  float: left;
+}
+
+.footerColumn ul li{
+  list-style: none;
+}
+
+.footerColumn ul li a{
+  font-size: 0.79em;
+  color: #5B5858;
+  text-decoration:none;
+}
+
+.footerColumn ul li a:hover{
+  text-decoration:underline;
+}
+
+/* credit area */
+.credit{
+  width: 100%;
+  height: auto;
+  background: #1A1A1A;
+}
+
+.applied{
+  position: relative;
+  width: 100%;
+  padding-bottom: 25px;
+}
+
+.apply{
+    margin-left: 36%;
+    width: 30% !important;
+}
+
+/* copyright */
+
+.copy{
+
+}
+
+.logocopy{
+  width: 25%;
+  height: auto;
+  float: left;
+  line-height: 50px;
+}
+
+.logocopy span{
+  font-size: 0.8em;
+  color: #5B585E;
+}
+
+.listing{
+  width: 70%;
+  height: auto;
+  float: right;
+}
+
+.listing ul{
+  text-align: right;
+}
+
+.listing ul li{
+ list-style: none;
+ display: inline;
+}
+
+.listing ul li a{
+  font-size: 0.79em;
+  color: #5B5858;
+  text-decoration:none;
+}
+
+.listing ul li a:hover{
+  text-decoration:underline;
+}
+
+.buy_tickets{
+  width: 100%;
+  height: auto;
+ /* background: url('../images/mount.jpg') no-repeat;*/
+ background: #1A1A1A;
+ /* background-size: cover;*/
+  position: relative;
+  float: left;
+}
+
+.steps{
+  width: 30%;
+  height: auto;
+  float: left;
+  /*border: 1px solid red;*/
+  padding: 15px;
+  margin-bottom:30px;
+  text-align: center;
+}
+
+.steps span{
+  font-family: chm;
+}
+
+/* ticket areas */
+.tic{
+  width: 100%;
+  height: auto;
+  float: left;
+  position: relative;
+}
+
+hr{
+  color:#BABABA;
+  clear: both;
+}
+
+.type{
+  width: 70%;
+  height: auto;
+  padding: 5px;
+  float: left;
+  position: relative;
+}
+
+.select_type{
+  width: 20%;
+  height: auto;
+  padding: 30px 15px;
+  float: left;
+  position: relative;
+}
+
+.select_type button{
+  float: right;
+}
+
+.buyArea{
+  width: 100%;
+  height: auto;
+  position: relative;
+  float: left;
+  margin-bottom: 50px;
+  background: #F5F5F5;
+}
+
+/* route maps */
+
+.attraction{
+  text-align: left;
+  font-size: 3em !important;
+  font-family: cht !important;
+}
+
+.infos{
+  font-family: cht !important;
+  font-size: 1.5em !important;
+}
+
+.routeButton{
+  width: 200px !important;
+}
+
+.leftArea{
+  float: left;
+  width: 40%;
+  padding: 15px;
+  height: auto;
+  position: relative;
+    margin-top: 10px;
+}
+
+.rightArea{
+  float: right;
+  width: 50%;
+  padding: 15px;
+  height: auto;
+  position: relative;
+    margin-top: 10px;
+}
+
+.las, .lax, .hv, .wv, .sb, .lb{
+  width: 100%;
+  height: auto;
+  position: relative;
+  float: left;
+  background: #F5F5F5;
+}
+
+
+.the_route{
+  width: 100%;
+  height: auto;
+ /* background: url('../images/mount.jpg') no-repeat;*/
+ background: #1A1A1A;
+ /* background-size: cover;*/
+  position: relative;
+  float: left;
+}
+
+.vLine{
+  width: 1px;
+  height: 150px;
+  color: #BABABA;
+  float: right;
+}
+
+.searchStation{
+    width: 65%;
+   height: 65px;
+   margin-bottom: 17px;
+   float: left;
+   margin-right: 15px;
+ }
+
+ .redButton{
+  float: left;
+  width: 30% !important;
+  height: 70px !important;
+ }
+
+ .searchBar{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  float: left;
+  width: 100%;
+  height: auto;
+ }
+}
