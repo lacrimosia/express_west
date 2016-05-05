@@ -1,7 +1,7 @@
 $(function(){
 // slideshow for home page
 var count = -1;
-var image = ["mountain.jpg", "background.jpg", "landing.jpg"];
+var image = ["business.jpg", "business.jpg", "landing.jpg"];
 var defaultImage = image[0];
 var time = 9000;
 
