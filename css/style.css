@@ -106,8 +106,8 @@ span, p, h1, h2, h3, h4, h5, h6, nav, a, i{
 
 .banner_container{
   width: 100%;
-  height: 500px !important;
-  background:url('../images/business.jpg') no-repeat;
+  height: 875px;
+  background:url('../images/mountain.jpg') no-repeat;
   background-size: cover;
   position:relative;
   float: left;
@@ -130,10 +130,6 @@ span, p, h1, h2, h3, h4, h5, h6, nav, a, i{
   float: left;
   padding: 15px;
   margin-top: -74px;
-}
-
-.red{
-  color: #ab391b !important;
 }
 
 .brand{
@@ -210,7 +206,7 @@ nav ul li a:hover{
 .booking_border{
   /*border: 1px solid #fffef9;*/
   background: #231f20;
-  width: 100% !important;
+  width: 60%;
   height: auto;
   margin: 0 auto;
   padding: 30px;
@@ -330,15 +326,6 @@ nav ul li a:hover{
 
 .footerColumn ul li{
   list-style: none;
-}
-
-.redBack{
-  background: #AA391B;
-  padding: 7px;
-  color: #ffffff !important;
-  text-align: center;
-  letter-spacing: 5px;
-  font-family: cht !important;
 }
 
 .footerColumn ul li a{
